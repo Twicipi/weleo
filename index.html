@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Muhamad Wifi</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Menyisipkan Boxicons untuk ikon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    /* Perbesar ukuran ikon pada setiap elemen dalam .icon-wrapper */
+    .icon-wrapper i {
+      font-size: 3em;
+      /* Ubah angka sesuai kebutuhan */
+    }
+
+    /* Jika ingin perbesar juga ikon pada soft skills */
+    .soft-skills i {
+      font-size: 2em;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Halo! Aku Muhamad Wifi!</h1>
+        <p><span id="typed"></span></p>
+      </div>
+    </section>
+
+    <section id="about" class="fade-in-up">
+      <h2>Tentang Aku</h2>
+      <div class="about-content">
+        <img src="assets/photo_6190328173678412558_m.jpg" alt="Foto Wifi" class="profile-photo">
+        <p>
+          Saya adalah siswa SMK yang sangat menyukai pengembangan web. Saya telah menyelesaikan empat proyek, yaitu e-rapor, perpustakaan, manajemen aset, dan Keraton Kasepuhan Cirebon. Saya mahir menggunakan Next.js, React.js, Vue.js, dan Express.js. Selain itu, saya memiliki keterampilan dalam manajemen waktu, kerja sama tim, serta kemampuan berbicara di depan umum yang baik.
+        </p>
+      </div>
+    </section>
+    <section id="skills" class="scale-in">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="hard-skills">
+          <h3>Hard Skills</h3>
+          <!-- Skill Card untuk Next.js -->
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <!-- Karena belum ada ikon resmi Next.js, kita pakai ikon JavaScript sebagai alternatif -->
+              <i class="bx bxl-javascript" title="Next.js"></i>
+            </div>
+            <p class="percentage">80%</p>
+            <ul class="skill-points">
+              <li>Server-side rendering</li>
+              <li>API routes</li>
+              <li>Static site generation</li>
+            </ul>
+          </div>
+          <!-- Skill Card untuk React.js -->
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <i class="bx bxl-react" title="React.js"></i>
+            </div>
+            <p class="percentage">90%</p>
+            <ul class="skill-points">
+              <li>Hooks (useState, useEffect)</li>
+              <li>Context API</li>
+              <li>Component lifecycle</li>
+            </ul>
+          </div>
+          <!-- Skill Card untuk Vue.js -->
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <i class="bx bxl-vuejs" title="Vue.js"></i>
+            </div>
+            <p class="percentage">70%</p>
+            <ul class="skill-points">
+              <li>Directives</li>
+              <li>Vuex for state management</li>
+              <li>Vue Router</li>
+            </ul>
+          </div>
+          <!-- Skill Card untuk Express.js -->
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <i class="bx bx-server" title="Express.js"></i>
+            </div>
+            <p class="percentage">85%</p>
+            <ul class="skill-points">
+              <li>Middleware</li>
+              <li>RESTful APIs</li>
+              <li>Authentication</li>
+            </ul>
+          </div>
+        </div>
+        <div class="soft-skills">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li><i class="bx bx-time-five" title="Manajemen Waktu"></i> Manajemen Waktu</li>
+            <li><i class="bx bx-group" title="Kerja Tim"></i> Kerja Tim</li>
+            <li><i class="bx bx-microphone" title="Public Speaking"></i> Public Speaking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="slide-in-left">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="assets/e-rapor.jpeg" alt="E-Rapor" class="project-photo">
+          <h3>E-Rapor</h3>
+          <p>Sistem rapor elektronik buat sekolah.</p>
+          <a href="#">Lihat Project</a>
+        </div>
+        <div class="project-card">
+          <img src="assets/perpuspat.jpeg" alt="Perpustakaan" class="project-photo">
+          <h3>Perpustakaan</h3>
+          <p>Aplikasi manajemen perpustakaan.</p>
+          <a href="#">Lihat Project</a>
+        </div>
+        <div class="project-card">
+          <img src="assets/pos-1.png" alt="Keraton Kasepuhan Cirebon" class="project-photo">
+          <h3>Keraton Kasepuhan Cirebon POS</h3>
+          <p>Website Point Of Sales untuk Keraton Kasepuhan Cirebon.</p>
+          <a href="https://keraton.curaweda.com/">Lihat Project</a>
+        </div>
+        <div class="project-card">
+          <img src="assets/lynhavn.jpeg" alt="Lynhavn Rodder" class="project-photo">
+          <h3>Lynhvnn Rodder</h3>
+          <p>Website profile untuk Lynhavn Rodder.</p>
+          <a href="https://lynhavn-rodder.vercel.app/">Lihat Project</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="slide-in-right">
+      <h2>Tertarik? Ayo kita bekerja sama!</h2>
+      <form>
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Muhamad Wifi. All rights reserved.</p>
+  </footer>
+  <div class="custom-cursor"></div>
+</body>
+
+</html>
+<!-- Typed.js dari CDN -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed('#typed', {
+    strings: ["Fullstack Developer", "Pelajar SMK", "Designer", "Freelancer"],
+    typeSpeed: 50, // Kecepatan pengetikan (ms)
+    backSpeed: 25, // Kecepatan hapus tulisan (ms)
+    backDelay: 2000, // Jeda sebelum hapus tulisan (ms)
+    loop: true // Ulang animasi
+  });
+  // Ambil elemen custom cursor
+  const cursor = document.querySelector('.custom-cursor');
+
+  // Update posisi cursor sesuai pergerakan mouse
+  document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+
+  // Buat daftar elemen interaktif, termasuk elemen teks
+  const interactiveElements = document.querySelectorAll('a, button, .skill-card, .project-card, input, textarea, h1, h2, h3, h4, h5, h6, p');
+
+  // Tambahkan event listener pada elemen interaktif
+  interactiveElements.forEach((elem) => {
+    elem.addEventListener('mouseenter', () => {
+      cursor.classList.add('hover');
+      elem.classList.add('text-hover'); // Ubah warna teks secara reaktif
+    });
+    elem.addEventListener('mouseleave', () => {
+      cursor.classList.remove('hover');
+      elem.classList.remove('text-hover');
+    });
+  });
+</script>
